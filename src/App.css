@@ -1,0 +1,23 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  z-index: 10;
+  color: #003366;
+}
+.canvas {
+  width: 100%;
+  height: 100%;
+}
